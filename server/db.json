@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "id": 0,
+      "name": "hung",
+      "email": "Hung123@gmail.com",
+      "phone": "083653329"
+    },
+    {
+      "id": 1,
+      "name": "hung",
+      "email": "Hung123@gmail.com",
+      "phone": "083653329"
+    },
+    {
+      "name": "Trịnh Khắc Hưng",
+      "email": "trinhkhachung27@gmail.com",
+      "password": "111",
+      "age": "18",
+      "phone": "0335417848",
+      "id": 2
+    },
+    {
+      "name": "Trịnh Khắc Hưng",
+      "email": "trinhkhachung27@gmail.com",
+      "password": "ssss",
+      "age": "18",
+      "phone": "0335417848",
+      "id": 3
+    }
+  ]
+}
