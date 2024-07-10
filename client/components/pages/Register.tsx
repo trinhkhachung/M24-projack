@@ -9,7 +9,8 @@ export default function Register() {
     email: '',
     password: '',
     age: '',
-    phone: ''
+    phone: '',
+    block: false
   });
 
   const [error, setError] = useState('');
@@ -56,7 +57,8 @@ export default function Register() {
       email: '',
       password: '',
       age: '',
-      phone: ''
+      phone: '',
+      block:false
     });
     setError('');
   };
