@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { blockUser, getAllUsers } from '../../src/store/reducer/reducer';
-import '../css/User.css'; 
+import { blockUser, getAllUsers } from '../store/reducer/reducer';
+import '../css/User.css';
 
 export default function UserManagement() {
     const users = useSelector((state: any) => state.reducer.users);
@@ -11,9 +11,9 @@ export default function UserManagement() {
         dispatch(getAllUsers());
     }, [dispatch]);
 
-    const handleBlockUser = (user:any) => {
+    const handleBlockUser = (user: any) => {
         dispatch(blockUser(user))
-       
+
     };
 
     const handleDeleteUser = (userId: number) => {

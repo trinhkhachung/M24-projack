@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getAllUsers, addUser } from '../../src/store/reducer/reducer';
+import { getAllUsers, addUser } from '../store/reducer/reducer';
 import '../css/Register.css';
 
 export default function Register() {
@@ -58,7 +58,7 @@ export default function Register() {
       password: '',
       age: '',
       phone: '',
-      block:false
+      block: false
     });
     setError('');
   };

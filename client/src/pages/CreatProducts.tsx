@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 
 import '../css/CreatProduct.css';
 
-import { addProducts } from '../../src/store/reducer/reducer';
+import { addProducts } from '../store/reducer/reducer';
 
 const CreatProducts = () => {
     const dispatch = useDispatch();

@@ -1,9 +1,9 @@
 import React from 'react'
-import Register from '../components/pages/Register'
+import Register from './pages/Register'
 import { Routes, Route, Outlet } from 'react-router-dom'
-import Login from '../components/pages/Login'
-import UserManagement from '../components/pages/UserManagement'
-import CreatProducts from '../components/pages/CreatProducts'
+import Login from './pages/Login'
+import UserManagement from './pages/UserManagement'
+import CreatProducts from './pages/CreatProducts'
 export default function App() {
   return (
     <div>
